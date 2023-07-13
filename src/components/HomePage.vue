@@ -1,20 +1,20 @@
 <template>
     <v-app class="boxSize">
         <ItemAdder/>
-        <ItemsPage/>
     </v-app>
 </template>
 
 <script>
-import ItemsPage from './ItemsPage.vue';
 import ItemAdder from './ItemAdder.vue';
 
 export default {
     components: {
-        ItemsPage,
         ItemAdder
-
-    }
+    },
+    data(){
+        return {
+        }
+    },
 
 }
 </script>
